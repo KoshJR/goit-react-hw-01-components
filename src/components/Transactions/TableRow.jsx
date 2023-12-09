@@ -1,0 +1,10 @@
+import css from './Transactions.module.css';
+export const TableRow = ({ type, amount, currency }) => {
+  return (
+    <tr>
+      <td>{type}</td>
+      <td>{amount}</td>
+      <td>{currency}</td>
+    </tr>
+  );
+};

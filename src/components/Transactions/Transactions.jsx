@@ -1,4 +1,5 @@
 import css from './Transactions.module.css';
+import { TableRow } from './TableRow';
 
 export const Transactions = ({ items }) => {
   return (
@@ -16,15 +17,5 @@ export const Transactions = ({ items }) => {
         ))}
       </tbody>
     </table>
-  );
-};
-
-const TableRow = ({ type, amount, currency }) => {
-  return (
-    <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
-    </tr>
   );
 };
