@@ -1,0 +1,60 @@
+.profile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  background-color: gainsboro;
+  border-radius: 50%;
+  max-width: 160px;
+}
+
+.list_item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+.name {
+  color: #122236;
+  font-size: 24px;
+  font-weight: bold;
+}
+.stats {
+  width: 100%;
+  margin: 0;
+  background-color: #f3f6f9;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+}
+.stats li {
+  flex: 1;
+  text-align: center;
+  padding: 24px 0;
+  border: 1px solid #eaeef3;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.quantity {
+  color: #122236;
+}
